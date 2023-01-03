@@ -62,7 +62,7 @@ public class MemberServlet extends HttpServlet {
 			String email = member.getEmail();
 			Date joinDate = member.getJoinDate();
 			out.print("<tr><td>" + id + "</td><td>" + pwd + "</td><td>" + name + "</td><td>" + email 
-					+ "</td><td>" + joinDate + "</td><td>" + "<a href='/pro07/memberJoin?command=delMember&id=" + id 
+					+ "</td><td>" + joinDate + "</td><td>" + "<a href='/pro07/member4?command=delMember&id=" + id 
 					+ "'>ªË¡¶</a></td></tr>");
 		}
 		
